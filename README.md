@@ -132,7 +132,8 @@ Or use the **Register** page to create your own recruiter or candidate account.
 
 | Role | Username | Password |
 |---|---|---|
-| Recruiter | recruiter | recruit@321 |
+| Recruiter | recruiter | recruit@4321 |
+| Candidate | candidate | candidate@4321 |
 
 > This is a shared demo account. Please do not enter real personal data.
 
@@ -154,8 +155,8 @@ The project is configured for Vercel using Django's WSGI entrypoint.
 
 | Name | Role |
 |---|---|
-| Pavan Subramanyam Sai Kumar Dangeti | Backend / Recruiter Module |
-| Sriveena | Candidate Module |
+| Sriveena | Backend / Recruiter Module |
+| Teammate | Candidate Module |
 | Teammate | Resume NLP |
 | Teammate | Analytics |
 
