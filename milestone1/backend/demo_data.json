@@ -1,0 +1,44 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Vsh0Q4eThqHSi16EQpqY4C$h+bS5J5Km/h/iVqAWldprfGhDoydp4vc7tv062eE/pQ=",
+    "last_login": "2026-09-21T06:41:45.288Z",
+    "is_superuser": false,
+    "username": "recruiter",
+    "first_name": "",
+    "last_name": "",
+    "email": "demo@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T06:32:50.206Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "role": "recruiter"
+  }
+},
+{
+  "model": "recruiter.recruiterprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "recruiter_name": "Demo Recruiter",
+    "company_name": "My Company",
+    "email": "demo@example.com",
+    "phone": "",
+    "location": "",
+    "company_description": "",
+    "company_logo": "",
+    "created_at": "2026-09-21T06:33:03.783Z",
+    "updated_at": "2026-09-21T06:33:03.783Z"
+  }
+}
+]

@@ -262,3 +262,13 @@ SESSION_COOKIE_HTTPONLY = True
 # Candidate Profile -> 30 requests/minute
 # Edit Profile      -> 10 requests/minute
 # Upload Resume     -> 5 requests/minute
+# ---- Vercel deployment ----
+IS_VERCEL = bool(os.getenv("VERCEL"))
+STATIC_ROOT = BASE_DIR / "staticfiles"
+if IS_VERCEL:
+    DEBUG = False
+    ALLOWED_HOSTS += [".vercel.app"]
+    CSRF_TRUSTED_ORIGINS = ["https://*.vercel.app"]
+    DATABASES["default"]["NAME"] = "/tmp/db.sqlite3"
+    MEDIA_ROOT = "/tmp/media"
+    SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
