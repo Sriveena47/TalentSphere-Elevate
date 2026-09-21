@@ -18,11 +18,54 @@
   }
 },
 {
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$XDKzXAsRGm2TF1JHs4UmC2$/bITqv3xlR+mFhinWw8GQJIgtE3p8A5JjpT8JbE0L6c=",
+    "last_login": "2026-09-21T07:27:17.217Z",
+    "is_superuser": false,
+    "username": "candidate",
+    "first_name": "",
+    "last_name": "",
+    "email": "demo@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-21T07:27:05.248Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "accounts.userprofile",
   "pk": 1,
   "fields": {
     "user": 1,
     "role": "recruiter"
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "role": "candidate"
+  }
+},
+{
+  "model": "candidate.candidateprofile",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "full_name": "candidate",
+    "phone": "",
+    "location": "",
+    "education": "",
+    "skills": "",
+    "experience": "",
+    "bio": "",
+    "profile_image": "",
+    "created_at": "2026-09-21T07:27:17.224Z",
+    "updated_at": "2026-09-21T07:27:17.224Z"
   }
 },
 {
