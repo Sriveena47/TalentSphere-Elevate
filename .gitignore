@@ -221,3 +221,13 @@ milestone1/backend/media/resumes/
 
 # Local resume parser test file
 milestone1/backend/candidate/sample_resume.pdf.DS_Storemilestone1/backend/candidate/sample_resume.pdf
+
+# local / sensitive
+venv/
+.env
+*.sqlite3
+*.log
+media/
+__pycache__/
+*.pyc
+.DS_Store
