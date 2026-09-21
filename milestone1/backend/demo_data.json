@@ -3,8 +3,8 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$1200000$Vsh0Q4eThqHSi16EQpqY4C$h+bS5J5Km/h/iVqAWldprfGhDoydp4vc7tv062eE/pQ=",
-    "last_login": "2026-09-21T06:41:45.288Z",
+    "password": "pbkdf2_sha256$1200000$whSkzZUUmTN7u37IrZM9so$4/01e0tZwsX5G0uaSPK1twS2VVbmDaOEhef2tMZJTS8=",
+    "last_login": "2026-09-21T06:45:08.234Z",
     "is_superuser": false,
     "username": "recruiter",
     "first_name": "",
