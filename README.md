@@ -112,7 +112,7 @@ Or simply use the **Register** page to create your own recruiter or candidate ac
 
 | Role | Username | Password |
 |---|---|---|
-| Recruiter | `recruiter` | `recruit@4321` |
+| Recruiter | `recruiter` | `recruiter@4321` |
 
 This is a shared demo account. Please do not enter real personal data.
 
