@@ -13,9 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv(BASE_DIR / ".env")
 
-SECRET_KEY = "django-insecure-talent-sphere-development-key-2026"
-
-#SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "dev-only-insecure-key")
 
 DEBUG = True
 
